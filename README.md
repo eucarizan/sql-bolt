@@ -5,6 +5,7 @@
   - [Lessons](#lessons)
     - [1: SELECT queries 101](#1-select-queries-101)
     - [2: Queries with constraints pt 1](#2-queries-with-constraints-pt-1)
+    - [3: Queries with constraints pt 2](#3-queries-with-constraints-pt-2)
   - [files](#files)
 
 ## About
@@ -32,13 +33,23 @@ Learn SQL with simple, interactive exercises.
 4|[select where 04](./solution/ex02/task02_04.sql)|find the first 5 pixax movies and their release *year*
 <hr/>
 
+### [3: Queries with constraints pt 1](https://sqlbolt.com/lesson/select_queries_with_constraints)
+
+#|solution|task
+:-:|:-:|:--
+1|[select where string](./solution/ex03/task03_01.sql)|find all the toy story movies
+2|[select where string](./solution/ex03/task03_02.sql)|find all the movies directed by john lasseter
+3|[select where string](./solution/ex03/task03_03.sql)|find all the movies (and director) not directed by john lasseter
+4|[select where string](./solution/ex03/task03_04.sql)|find all the wall-\* movies
+<hr/>
+
 <!--
 
 ### [: ](https://sqlbolt.com/lesson/)
 
-#|task|solution
-:-:|:-:|:-:
-||[](./solution/ex0/task0_.sql)
+#|solution|task
+:-:|:-:|:--
+1|[](./solution/ex00/task00_01.sql)|
 <hr/>
 -->
 
