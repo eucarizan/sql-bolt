@@ -1,1 +1,1 @@
-SELECT * FROM movies WHERE title LIKE "WALL-%";
+SELECT * FROM movies WHERE title ILIKE 'WALL-%';

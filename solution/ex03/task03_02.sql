@@ -1,1 +1,1 @@
-SELECT * FROM movies WHERE director LIKE "john lasseter";
+SELECT * FROM movies WHERE director ILIKE 'john lasseter';
