@@ -7,6 +7,7 @@
     - [2: Queries with constraints pt 1](#2-queries-with-constraints-pt-1)
     - [3: Queries with constraints pt 1](#3-queries-with-constraints-pt-1)
     - [4: Filtering and sorting Query results](#4-filtering-and-sorting-query-results)
+    - [5: Simple SELECT Queries](#5-simple-select-queries)
   - [files](#files)
 
 ## About
@@ -52,6 +53,17 @@ Learn SQL with simple, interactive exercises.
 2|[order by, limit 1](./solution/ex04/task04_02.sql)|list the last four pixar movies released (ordered from most recent to least)
 3|[order by, limit 2](./solution/ex04/task04_03.sql)|list the *first* five pixar movies sorted alphabetically
 4|[order by, offset](./solution/ex04/task04_04.sql)|list the *next* five pixar movies sorted alphabetically
+<hr/>
+
+### [5: Simple SELECT Queries](https://sqlbolt.com/lesson/select_queries_review)
+
+#|solution|task
+:-:|:-:|:--
+1|['city' and 'population'](./solution/ex05/task05_01.sql)|list all canadian cities and their populations
+2|[order by north to south](./solution/ex05/task05_02.sql)|order all the cities in the united states by their latitude from north to south
+3|[where order by](./solution/ex05/task05_03.sql)|list all the cities west of chicago, ordered from west to east
+4|[order by, limit](./solution/ex05/task05_04.sql)|list the two larges cities in mexico (by population)
+5|[order by, offset](./solution/ex05/task05_05.sql)|list the third and fourth largest cities (by population) in the united states and their population
 <hr/>
 
 <!--

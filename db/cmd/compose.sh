@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# docker compose -f ../docker-compose.yml -p sqlbolt up -d
-docker compose -p sqlbolt up -d
-
+# docker compose -p sqlbolt up -d
+docker compose -f ./db/docker-compose.yml -p sqlbolt up -d
+docker exec sqlbolt_db sh -c "psql -d sqlbolt_db -U postgres -c '\d'"
