@@ -33,16 +33,40 @@ CREATE TABLE north_american_cities (
 );
 
 INSERT INTO north_american_cities 
-(city, country, population, latitude, longitude)
+    (city, country, population, latitude, longitude)
 VALUES
-('Guadalajara', 'Mexico', 1500800, 20.659699, -103.349609),
-('Toronto', 'Canada', 2795060, 43.653226, -79.383184),
-('Houston', 'United States', 2195914, 29.760427, -95.369803),
-('New York', 'United States', 8405837, 40.712784, -74.005941),
-('Philadelphia', 'United States', 1553165, 39.952584, -75.165222),
-('Havana', 'Cuba', 2106146, 23.05407, -82.345189),
-('Mexico City', 'Mexico', 8555500, 19.432608, -99.133208),
-('Phoenix', 'United States', 1513367, 33.448377, -112.074037),
-('Los Angeles', 'United States', 3884307, 34.052234, -118.243685),
-('Ecatepec de Morelos', 'Mexico', 1742000, 19.601841, -99.050674);
+    ('Guadalajara', 'Mexico', 1500800, 20.659699, -103.349609),
+    ('Toronto', 'Canada', 2795060, 43.653226, -79.383184),
+    ('Houston', 'United States', 2195914, 29.760427, -95.369803),
+    ('New York', 'United States', 8405837, 40.712784, -74.005941),
+    ('Philadelphia', 'United States', 1553165, 39.952584, -75.165222),
+    ('Havana', 'Cuba', 2106146, 23.05407, -82.345189),
+    ('Mexico City', 'Mexico', 8555500, 19.432608, -99.133208),
+    ('Phoenix', 'United States', 1513367, 33.448377, -112.074037),
+    ('Los Angeles', 'United States', 3884307, 34.052234, -118.243685),
+    ('Ecatepec de Morelos', 'Mexico', 1742000, 19.601841, -99.050674);
 
+CREATE TABLE boxoffice (
+    movie_id int,
+    rating real,
+    domestic_sales int,
+    international_sales int
+);
+
+INSERT INTO boxoffice
+    (movie_id, rating, domestic_sales, international_sales)
+VALUES
+    (1, 8.3, 191796233, 170162503),
+    (2, 7.2, 162798565, 200600000),
+    (3, 7.9, 245852179, 239163000),
+    (4, 8.1, 289916256, 272900000),
+    (5, 8.2, 380843261, 555900000),
+    (6, 8, 261441092, 370001000),
+    (7, 7.2, 244082982, 217900167),
+    (8, 8, 206445654, 417277164),
+    (9, 8.5, 223808164, 297503696),
+    (10, 8.3, 293004164, 438338580),
+    (11, 8.4, 415004880, 648167031),
+    (12, 6.4, 191452396, 368400000),
+    (13, 7.2, 237283207, 301700000),
+    (14, 7.4, 268492764, 475066843);

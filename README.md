@@ -8,6 +8,7 @@
     - [3: Queries with constraints pt 1](#3-queries-with-constraints-pt-1)
     - [4: Filtering and sorting Query results](#4-filtering-and-sorting-query-results)
     - [5: Simple SELECT Queries](#5-simple-select-queries)
+    - [6: Multi table queries with JOINs](#6-multi-table-queries-with-joins)
   - [files](#files)
 
 ## About
@@ -66,9 +67,18 @@ Learn SQL with simple, interactive exercises.
 5|[order by, offset](./solution/ex05/task05_05.sql)|list the third and fourth largest cities (by population) in the united states and their population
 <hr/>
 
+### [6: Multi table queries with JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
+
+#|solution|task
+:-:|:-:|:--
+1|[join](./solution/ex06/task06_01.sql)|find the domestic and international sales for each movie
+2|[join where](./solution/ex06/task06_02.sql)|show the sales numbers for each movie that did better internationally rather than domestically
+3|[join order by](./solution/ex06/task06_03.sql)|list all the movies by their ratings in descending order
+<hr/>
+
 <!--
 
-### [: ](https://sqlbolt.com/lesson/)
+### [](https://sqlbolt.com/lesson/)
 
 #|solution|task
 :-:|:-:|:--
