@@ -9,6 +9,7 @@
     - [4: Filtering and sorting Query results](#4-filtering-and-sorting-query-results)
     - [5: Simple SELECT Queries](#5-simple-select-queries)
     - [6: Multi table queries with JOINs](#6-multi-table-queries-with-joins)
+    - [7: OUTER JOINs](#7-outer-joins)
   - [files](#files)
 
 ## About
@@ -74,6 +75,15 @@ Learn SQL with simple, interactive exercises.
 1|[join](./solution/ex06/task06_01.sql)|find the domestic and international sales for each movie
 2|[join where](./solution/ex06/task06_02.sql)|show the sales numbers for each movie that did better internationally rather than domestically
 3|[join order by](./solution/ex06/task06_03.sql)|list all the movies by their ratings in descending order
+<hr/>
+
+### [7: OUTER JOINs](https://sqlbolt.com/lesson/select_queries_with_outer_joins)
+
+#|solution|task
+:-:|:-:|:--
+1|[select distinct](./solution/ex07/task07_01.sql)|find the list of all buildings that have employees
+2|[simple select](./solution/ex07/task07_02.sql)|find the list of all buildings and their capacity
+3|[select distinct left join](./solution/ex07/task07_03.sql)|list all buildings and the distinct employee roles in each building (including empty buildings)
 <hr/>
 
 <!--
