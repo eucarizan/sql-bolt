@@ -12,6 +12,7 @@
     - [7: OUTER JOINs](#7-outer-joins)
     - [8: A short note on NULLs](#8-a-short-note-on-nulls)
     - [9: Queries with expressions](#9-queries-with-expressions)
+    - [10: Queries with aggregates pt 1](#10-queries-with-aggregates-pt-1)
   - [files](#files)
 
 ## About
@@ -103,6 +104,15 @@ Learn SQL with simple, interactive exercises.
 1|[add expression](./solution/ex09/task09_01.sql)|list all movies and their combined sales in *millions* of dollars
 2|[multiply expression](./solution/ex09/task09_02.sql)|list all movies and their ratings *in percent*
 3|[where modulo expression](./solution/ex09/task09_03.sql)|list all movies that were released on even number years
+<hr/>
+
+### [10: Queries with aggregates pt 1](https://sqlbolt.com/lesson/select_queries_with_aggregates)
+
+#|solution|task
+:-:|:-:|:--
+1|[max aggregate function](./solution/ex10/task10_01.sql)|find the longest time that an employee has been at the studio
+2|[avg aggregate function](./solution/ex10/task10_02.sql)|for each role, find the average number of years employed by employees in that role
+3|[sum aggregate function](./solution/ex10/task10_03.sql)|find the total number of employee years worked in each building
 <hr/>
 
 <!--
