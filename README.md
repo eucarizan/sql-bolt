@@ -10,6 +10,7 @@
     - [5: Simple SELECT Queries](#5-simple-select-queries)
     - [6: Multi table queries with JOINs](#6-multi-table-queries-with-joins)
     - [7: OUTER JOINs](#7-outer-joins)
+    - [8: A short note on NULLs](#8-a-short-note-on-nulls)
   - [files](#files)
 
 ## About
@@ -84,6 +85,14 @@ Learn SQL with simple, interactive exercises.
 1|[select distinct](./solution/ex07/task07_01.sql)|find the list of all buildings that have employees
 2|[simple select](./solution/ex07/task07_02.sql)|find the list of all buildings and their capacity
 3|[select distinct left join](./solution/ex07/task07_03.sql)|list all buildings and the distinct employee roles in each building (including empty buildings)
+<hr/>
+
+### [8: A short note on NULLs](https://sqlbolt.com/lesson/)
+
+#|solution|task
+:-:|:-:|:--
+1|[where is null](./solution/ex08/task08_01.sql)|find the name and role of all employees who have not been assigned to a building
+2|[left join where is null](./solution/ex08/task08_02.sql)|find the names of the buildings that hold no employees
 <hr/>
 
 <!--

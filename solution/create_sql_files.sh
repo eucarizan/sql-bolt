@@ -15,7 +15,8 @@ CREATE_FILE() {
 for (( i = 1; i <= $1; i++ ))
 do
   printf -v filename "task%02d_%02d.sql" $2 $i
-  echo '#!/usr/bin/env bash' >> $FOLDER/$filename
+  # echo '#!/usr/bin/env bash' >> $FOLDER/$filename
+  touch $FOLDER/$filename
 done
 }
 
