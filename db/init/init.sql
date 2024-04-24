@@ -70,3 +70,43 @@ VALUES
     (12, 6.4, 191452396, 368400000),
     (13, 7.2, 237283207, 301700000),
     (14, 7.4, 268492764, 475066843);
+
+CREATE TABLE employees (
+    role varchar(20),
+    name varchar(50),
+    building varchar(5),
+    years_employed int
+);
+
+INSERT INTO employees
+    (role, name, building, years_employed)
+VALUES
+    ('Engineer', 'Becky A.', '1e', 4),
+    ('Engineer', 'Dan B.', '1e', 2),
+    ('Engineer', 'Sharon F.', '1e', 6),
+    ('Engineer', 'Dan M.', '1e', 4),
+    ('Engineer', 'Malcom S.', '1e', 1),
+    ('Artist', 'Tylar S.', '2w', 2),
+    ('Artist', 'Sherman D.', '2w', 8),
+    ('Artist', 'Jakob J.', '2w', 6),
+    ('Artist', 'Lillia A.', '2w', 7),
+    ('Artist', 'Brandon J.', '2w', 7),
+    ('Manager', 'Scott K.', '1e', 9),
+    ('Manager', 'Shirlee M.', '1e', 3),
+    ('Manager', 'Daria O.', '2w', 6);
+--    ('Engineer', 'Yancy I.', NULL, 0),
+--    ('Artist', 'Oliver P.', NULL, 0)
+
+CREATE TABLE buildings (
+    building_name varchar(5),
+    capacity int
+);
+
+INSERT INTO buildings
+    (building_name, capacity)
+VALUES
+    ('1e', 24),
+    ('1w', 32),
+    ('2e', 16),
+    ('2w', 20);
+
