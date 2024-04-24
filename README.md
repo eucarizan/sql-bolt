@@ -11,6 +11,7 @@
     - [6: Multi table queries with JOINs](#6-multi-table-queries-with-joins)
     - [7: OUTER JOINs](#7-outer-joins)
     - [8: A short note on NULLs](#8-a-short-note-on-nulls)
+    - [9: Queries with expressions](#9-queries-with-expressions)
   - [files](#files)
 
 ## About
@@ -93,6 +94,15 @@ Learn SQL with simple, interactive exercises.
 :-:|:-:|:--
 1|[where is null](./solution/ex08/task08_01.sql)|find the name and role of all employees who have not been assigned to a building
 2|[left join where is null](./solution/ex08/task08_02.sql)|find the names of the buildings that hold no employees
+<hr/>
+
+### [9: Queries with expressions](https://sqlbolt.com/lesson/select_queries_with_expressions)
+
+#|solution|task
+:-:|:-:|:--
+1|[add expression](./solution/ex09/task09_01.sql)|list all movies and their combined sales in *millions* of dollars
+2|[multiply expression](./solution/ex09/task09_02.sql)|list all movies and their ratings *in percent*
+3|[where modulo expression](./solution/ex09/task09_03.sql)|list all movies that were released on even number years
 <hr/>
 
 <!--

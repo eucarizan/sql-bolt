@@ -6,8 +6,8 @@ CREATE_FOLDER() {
 if [ -d $FOLDER ]; then
   echo $FOLDER: folder exists
 else
-  echo creating $FOLDER
   mkdir $FOLDER
+  echo created $FOLDER
 fi
 }
 
@@ -31,4 +31,6 @@ else
     CREATE_FILE $1 $2
   fi
 fi
+
+tree $FOLDER
 
