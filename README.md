@@ -15,6 +15,7 @@
     - [10: Queries with aggregates pt 1](#10-queries-with-aggregates-pt-1)
     - [11: Queries with aggregates pt 2](#11-queries-with-aggregates-pt-2)
     - [12: Order of execution of a Query](#12-order-of-execution-of-a-query)
+    - [13: Inserting rows](#13-inserting-rows)
   - [files](#files)
 
 ## About
@@ -132,6 +133,14 @@ Learn SQL with simple, interactive exercises.
 :-:|:-:|:--
 1|[select count group by](./solution/ex12/task12_01.sql)|find the number of movies each director has directed
 2|[select sum join group by](./solution/ex12/task12_02.sql)|find the total domestic and international sales that can be attributed to each director
+<hr/>
+
+### [13: Inserting rows](https://sqlbolt.com/lesson/inserting_rows)
+
+#|solution|task
+:-:|:-:|:--
+1|[insert 1](./solution/ex13/task13_01.sql)|add the studio's new production, *toy story 4* to the list of movies (you can use any director)
+2|[insert 2](./solution/ex13/task13_02.sql)|toy story 4 has been released to critical acclaim! it had a rating of *8.7*, and made *340 million domestically* and *270 million internationally*. add the record to boxoffice table.
 <hr/>
 
 <!--
