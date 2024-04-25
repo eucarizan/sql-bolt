@@ -18,6 +18,7 @@
     - [13: Inserting rows](#13-inserting-rows)
     - [14: Updating rows](#14-updating-rows)
     - [15: Deleting rows](#15-deleting-rows)
+    - [16: Creating tables](#16-creating-tables)
   - [files](#files)
 
 ## About
@@ -28,21 +29,21 @@ Learn SQL with simple, interactive exercises.
 
 #|solution|task
 :-:|:-:|:--
-1|[select 'title'](./solution/ex01/task01_01.sql)|find the *title* of each film
-2|[select 'director'](./solution/ex01/task01_02.sql)|find the *director* of each film
-3|[select 'title' and 'director'](./solution/ex01/task01_03.sql)|find the *title* and *director* of each film
-4|[select 'title' and 'year'](./solution/ex01/task01_04.sql)|find the *title* and *year* of each film
-5|[select all](./solution/ex01/task01_05.sql)|find *all* the information about each film
+1|[select 'title'](./solution/ex01/task01_01.sql)|find the **title** of each film
+2|[select 'director'](./solution/ex01/task01_02.sql)|find the **director** of each film
+3|[select 'title' and 'director'](./solution/ex01/task01_03.sql)|find the **title** and **director** of each film
+4|[select 'title' and 'year'](./solution/ex01/task01_04.sql)|find the **title** and **year** of each film
+5|[select all](./solution/ex01/task01_05.sql)|find **all** the information about each film
 <hr/>
 
 ### [2: Queries with constraints pt 1](https://sqlbolt.com/lesson/select_queries_with_constraints)
 
 #|solution|task
 :-:|:-:|:--
-1|[select where id](./solution/ex02/task02_01.sql)|find the movie with a row *id* of 6
-2|[select where 'year' between](./solution/ex02/task02_02.sql)|find the movies released in the *year*s between 2000 and 2010
-3|[select where 'year' not between](./solution/ex02/task02_03.sql)|find the moview *not* released in the *year*s between 2000 and 2010
-4|[select where order by, limit](./solution/ex02/task02_04.sql)|find the first 5 pixar movies and their release *year*
+1|[select where id](./solution/ex02/task02_01.sql)|find the movie with a row **id** of 6
+2|[select where 'year' between](./solution/ex02/task02_02.sql)|find the movies released in the **year**s between 2000 and 2010
+3|[select where 'year' not between](./solution/ex02/task02_03.sql)|find the moview **not** released in the **year**s between 2000 and 2010
+4|[select where order by, limit](./solution/ex02/task02_04.sql)|find the first 5 pixar movies and their release **year**
 <hr/>
 
 ### [3: Queries with constraints pt 1](https://sqlbolt.com/lesson/select_queries_with_constraints)
@@ -61,8 +62,8 @@ Learn SQL with simple, interactive exercises.
 :-:|:-:|:--
 1|[distinct, order by](./solution/ex04/task04_01.sql)|list all director of pixar movies (alphabetically), without duplicates
 2|[order by, limit 1](./solution/ex04/task04_02.sql)|list the last four pixar movies released (ordered from most recent to least)
-3|[order by, limit 2](./solution/ex04/task04_03.sql)|list the *first* five pixar movies sorted alphabetically
-4|[order by, offset](./solution/ex04/task04_04.sql)|list the *next* five pixar movies sorted alphabetically
+3|[order by, limit 2](./solution/ex04/task04_03.sql)|list the **first** five pixar movies sorted alphabetically
+4|[order by, offset](./solution/ex04/task04_04.sql)|list the **next** five pixar movies sorted alphabetically
 <hr/>
 
 ### [5: Simple SELECT Queries](https://sqlbolt.com/lesson/select_queries_review)
@@ -106,8 +107,8 @@ Learn SQL with simple, interactive exercises.
 
 #|solution|task
 :-:|:-:|:--
-1|[add expression](./solution/ex09/task09_01.sql)|list all movies and their combined sales in *millions* of dollars
-2|[multiply expression](./solution/ex09/task09_02.sql)|list all movies and their ratings *in percent*
+1|[add expression](./solution/ex09/task09_01.sql)|list all movies and their combined sales in **millions** of dollars
+2|[multiply expression](./solution/ex09/task09_02.sql)|list all movies and their ratings **in percent**
 3|[where modulo expression](./solution/ex09/task09_03.sql)|list all movies that were released on even number years
 <hr/>
 
@@ -124,7 +125,7 @@ Learn SQL with simple, interactive exercises.
 
 #|solution|task
 :-:|:-:|:--
-1|[select count where](./solution/ex11/task11_01.sql)|find the number of artists in the studio (without a *HAVING* clause)
+1|[select count where](./solution/ex11/task11_01.sql)|find the number of artists in the studio (without a **HAVING** clause)
 2|[select count group by](./solution/ex11/task11_02.sql)|find the number of of employees of each role in the studio
 3|[select sum group by having](./solution/ex11/task11_03.sql)|find the total number of year employed by all engineers
 <hr/>
@@ -141,25 +142,32 @@ Learn SQL with simple, interactive exercises.
 
 #|solution|task
 :-:|:-:|:--
-1|[insert 1](./solution/ex13/task13_01.sql)|add the studio's new production, *toy story 4* to the list of movies (you can use any director)
-2|[insert 2](./solution/ex13/task13_02.sql)|toy story 4 has been released to critical acclaim! it had a rating of *8.7*, and made *340 million domestically* and *270 million internationally*. add the record to boxoffice table.
+1|[insert 1](./solution/ex13/task13_01.sql)|add the studio's new production, **toy story 4** to the list of movies (you can use any director)
+2|[insert 2](./solution/ex13/task13_02.sql)|toy story 4 has been released to critical acclaim! it had a rating of **8.7**, and made **340 million domestically** and **270 million internationally**. add the record to boxoffice table.
 <hr/>
 
 ### [14: Updating rows](https://sqlbolt.com/lesson/updating_rows)
 
 #|solution|task
 :-:|:-:|:--
-1|[update 1](./solution/ex14/task14_01.sql)|the director for a bug's life is incorrect, it was actually directed by *john lasseter*
-2|[update 2](./solution/ex14/task14_02.sql)|the year that toy story 2 was released is incorrect, it was actually released in *1999*
-3|[update 3](./solution/ex14/task14_03.sql)|both the title and director for toy story 8 is incorrect! the title should be "toy story 3" and it was directed by *lee unkrich*
+1|[update 1](./solution/ex14/task14_01.sql)|the director for a bug's life is incorrect, it was actually directed by **john lasseter**
+2|[update 2](./solution/ex14/task14_02.sql)|the year that toy story 2 was released is incorrect, it was actually released in **1999**
+3|[update 3](./solution/ex14/task14_03.sql)|both the title and director for toy story 8 is incorrect! the title should be "toy story 3" and it was directed by **lee unkrich**
 <hr/>
 
 ### [15: Deleting rows](https://sqlbolt.com/lesson/deleting_rows)
 
 #|solution|task
 :-:|:-:|:--
-1|[delete 1](./solution/ex15/task15_01.sql)|this database is getting too big, lets remove all movies that were released *before* 2005
+1|[delete 1](./solution/ex15/task15_01.sql)|this database is getting too big, lets remove all movies that were released **before** 2005
 2|[delete 2](./solution/ex15/task15_02.sql)|andrew stanton has also left the studio, so please remove all movies directed by him
+<hr/>
+
+### [16: Creating tables](https://sqlbolt.com/lesson/creating_tables)
+
+#|solution|task
+:-:|:-:|:--
+1|[create table](./solution/ex16/task16_01.sql)|create a new table named **database** with the following columns: <br/> - **name** a string(text) describing the name of the database <br/> - **version** a number (floating point) of the latest version of this database <br/> - **download_count** an integer count of the number of times this databse was downloaded <br/> this table has no constraints
 <hr/>
 
 <!--
