@@ -14,6 +14,7 @@
     - [9: Queries with expressions](#9-queries-with-expressions)
     - [10: Queries with aggregates pt 1](#10-queries-with-aggregates-pt-1)
     - [11: Queries with aggregates pt 2](#11-queries-with-aggregates-pt-2)
+    - [12: Order of execution of a Query](#12-order-of-execution-of-a-query)
   - [files](#files)
 
 ## About
@@ -123,6 +124,14 @@ Learn SQL with simple, interactive exercises.
 1|[select count where](./solution/ex11/task11_01.sql)|find the number of artists in the studio (without a *HAVING* clause)
 2|[select count group by](./solution/ex11/task11_02.sql)|find the number of of employees of each role in the studio
 3|[select sum group by having](./solution/ex11/task11_03.sql)|find the total number of year employed by all engineers
+<hr/>
+
+### [12: Order of execution of a Query](https://sqlbolt.com/lesson/select_queries_order_of_execution)
+
+#|solution|task
+:-:|:-:|:--
+1|[select count group by](./solution/ex12/task12_01.sql)|find the number of movies each director has directed
+2|[select sum join group by](./solution/ex12/task12_02.sql)|find the total domestic and international sales that can be attributed to each director
 <hr/>
 
 <!--
