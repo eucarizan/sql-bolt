@@ -19,6 +19,7 @@
     - [14: Updating rows](#14-updating-rows)
     - [15: Deleting rows](#15-deleting-rows)
     - [16: Creating tables](#16-creating-tables)
+    - [17: Altering tables](#17-altering-tables)
   - [files](#files)
 
 ## About
@@ -168,6 +169,14 @@ Learn SQL with simple, interactive exercises.
 #|solution|task
 :-:|:-:|:--
 1|[create table](./solution/ex16/task16_01.sql)|create a new table named **database** with the following columns: <br/> - **name** a string(text) describing the name of the database <br/> - **version** a number (floating point) of the latest version of this database <br/> - **download_count** an integer count of the number of times this databse was downloaded <br/> this table has no constraints
+<hr/>
+
+### [17: Altering tables](https://sqlbolt.com/lesson/altering_tables)
+
+#|solution|task
+:-:|:-:|:--
+1|[alter table](./solution/ex17/task17_01.sql)|add a column named **aspect_ratio** with a **float** data type to store the aspect-ratio each movie was released in
+2|[alter table with default](./solution/ex17/task17_02.sql)|add another column named **language** with a **text** data type to store the language that the movie was released in. ensure that the default for this language is **english**
 <hr/>
 
 <!--
