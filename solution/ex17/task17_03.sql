@@ -1,0 +1,1 @@
+ALTER TABLE movies ALTER COLUMN aspect_ration SET DEFAULT 2.39;

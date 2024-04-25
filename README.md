@@ -20,6 +20,7 @@
     - [15: Deleting rows](#15-deleting-rows)
     - [16: Creating tables](#16-creating-tables)
     - [17: Altering tables](#17-altering-tables)
+    - [18: Dropping tables](#18-dropping-tables)
   - [files](#files)
 
 ## About
@@ -177,6 +178,14 @@ Learn SQL with simple, interactive exercises.
 :-:|:-:|:--
 1|[alter table](./solution/ex17/task17_01.sql)|add a column named **aspect_ratio** with a **float** data type to store the aspect-ratio each movie was released in
 2|[alter table with default](./solution/ex17/task17_02.sql)|add another column named **language** with a **text** data type to store the language that the movie was released in. ensure that the default for this language is **english**
+<hr/>
+
+### [18: Dropping tables](https://sqlbolt.com/lesson/dropping_tables)
+
+#|solution|task
+:-:|:-:|:--
+1|[drop table 1](./solution/ex18/task18_01.sql)|we've sadly reached the end of our lessons lets clean up by removing the **movies** table
+2|[drop table 2](./solution/ex18/task18_02.sql)|and drop the **boxoffice** table as well
 <hr/>
 
 <!--
