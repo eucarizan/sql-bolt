@@ -13,6 +13,7 @@
     - [8: A short note on NULLs](#8-a-short-note-on-nulls)
     - [9: Queries with expressions](#9-queries-with-expressions)
     - [10: Queries with aggregates pt 1](#10-queries-with-aggregates-pt-1)
+    - [11: Queries with aggregates pt 2](#11-queries-with-aggregates-pt-2)
   - [files](#files)
 
 ## About
@@ -113,6 +114,15 @@ Learn SQL with simple, interactive exercises.
 1|[max aggregate function](./solution/ex10/task10_01.sql)|find the longest time that an employee has been at the studio
 2|[avg aggregate function](./solution/ex10/task10_02.sql)|for each role, find the average number of years employed by employees in that role
 3|[sum aggregate function](./solution/ex10/task10_03.sql)|find the total number of employee years worked in each building
+<hr/>
+
+### [11: Queries with aggregates pt 2](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2)
+
+#|solution|task
+:-:|:-:|:--
+1|[select count where](./solution/ex11/task11_01.sql)|find the number of artists in the studio (without a *HAVING* clause)
+2|[select count group by](./solution/ex11/task11_02.sql)|find the number of of employees of each role in the studio
+3|[select sum group by having](./solution/ex11/task11_03.sql)|find the total number of year employed by all engineers
 <hr/>
 
 <!--
