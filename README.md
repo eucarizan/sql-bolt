@@ -16,6 +16,7 @@
     - [11: Queries with aggregates pt 2](#11-queries-with-aggregates-pt-2)
     - [12: Order of execution of a Query](#12-order-of-execution-of-a-query)
     - [13: Inserting rows](#13-inserting-rows)
+    - [14: Updating rows](#14-updating-rows)
   - [files](#files)
 
 ## About
@@ -141,6 +142,15 @@ Learn SQL with simple, interactive exercises.
 :-:|:-:|:--
 1|[insert 1](./solution/ex13/task13_01.sql)|add the studio's new production, *toy story 4* to the list of movies (you can use any director)
 2|[insert 2](./solution/ex13/task13_02.sql)|toy story 4 has been released to critical acclaim! it had a rating of *8.7*, and made *340 million domestically* and *270 million internationally*. add the record to boxoffice table.
+<hr/>
+
+### [14: Updating rows](https://sqlbolt.com/lesson/updating_rows)
+
+#|solution|task
+:-:|:-:|:--
+1|[update 1](./solution/ex14/task14_01.sql)|the director for a bug's life is incorrect, it was actually directed by *john lasseter*
+2|[update 2](./solution/ex14/task14_02.sql)|the year that toy story 2 was released is incorrect, it was actually released in *1999*
+3|[update 3](./solution/ex14/task14_03.sql)|both the title and director for toy story 8 is incorrect! the title should be "toy story 3" and it was directed by *lee unkrich*
 <hr/>
 
 <!--
